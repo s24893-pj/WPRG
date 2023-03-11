@@ -1,4 +1,9 @@
 <?php
-$a = rand(1,6);
-echo("wynik rzutu kostką: $a ")
+function rzut_kostka()
+{
+    echo("wynik rzutu kostka to:");
+    return rand(1, 6);
+}
+
+echo(rzut_kostka());
 ?>
